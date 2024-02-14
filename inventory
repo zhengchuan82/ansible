@@ -1,3 +1,7 @@
-192.168.50.101
-192.168.50.102
-192.168.50.103
+[servers]
+#server1 ansible_host=192.168.50.101
+server2 ansible_host=192.168.50.102
+server3 ansible_host=192.168.50.103
+
+#[all:vars]
+#ansible_ptyhon_interpreter=/usr/bin/python3
