@@ -1,8 +1,11 @@
-[servers]
-#server1 ansible_host=192.168.50.101
-192.168.50.102
-192.168.50.103
+[web_servers]
+192.168.50.101
 192.168.50.104
 
+[db_servers]
+192.168.50.102
+
+[file_servers]
+192.168.50.103
 #[all:vars]
 #ansible_ptyhon_interpreter=/usr/bin/python3
